@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+      <meta charset="UTF-8">
+      <meta name = "yandex-verification" content = "a53ef656eb05d288" /> <!-- voor de email-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Hanze Games</title>
+      <link rel="shortcut icon" href="https://hanzegames.ml/fotos/foto.png" type="image/x-icon">    <meta name="description" content="hanzegames.ml">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+</head>
+<body>
+      <div class="wrapper">
+            <header>
+
+                  <nav>
+
+                        <div class="menu-icon">
+                              <i class="fa fa-bars fa-2x"></i>
+                        </div>
+
+                        <div class="logo">
+                        Hanze Games
+                        </div>
+
+                        <div class="menu">
+                              <ul>
+                                    <li><a href="./index.html">Home</a></li>
+                                    <li><a href="./allgames.html">Games</a></li>
+                              </ul>
+                        </div>
+                  </nav>
+
+            </header>
+
+            <div class="content">
+                  <h1>Games</h1>
+                  <div class="kader">
+                        <img class="img" title="Play Happy Wheels"src="https://mgc2.florastatic.com/180x135/104/1043959-0.jpg"> <br>
+                    <a href="./games/Happy Wheels.html">Happy Wheels</a>
+                    
+                    <br>
+                    <img class="img" title="Play Motocross Challenge"src="https://mgc1.florastatic.com/180x135/103/1039030-0.jpg"> <br>
+                    <a href="./games/Motorcross.html">Motocross Challenge</a>
+                    <br>
+                    <img class="img" title="Play Moto-X3m-4"src="https://mgc1.florastatic.com/180x135/135/1358623-0.jpg"> <br>
+                    <a href="./games/Moto-X3m-4.html">Moto-X3m-4</a>
+                   
+                </div>
+      </div>
+    </div>
+    
+      <script type="text/javascript">
+
+      // Menu-toggle button
+
+      $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
+
+      // Scrolling Effect
+
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
+
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+
+
+      </script>
+
+</body>
+</html>
